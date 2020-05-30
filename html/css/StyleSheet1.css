@@ -1,0 +1,142 @@
+h1{
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+}
+.p1, .p2,.p3{
+    margin:2px;
+    text-align: left;
+    clear:both;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+@media (min-width: 993px){
+    #maindiv{
+    margin-top: 50px;
+}
+#div1{
+    background-color: lightblue;
+    border:2px solid black;
+    margin: 8px;
+    width: 31.5%;
+    float: left;
+}
+#div2{
+    background-color: lightcoral;
+    border:2px solid black;
+    margin: 8px;
+    width: 31.5%;
+    float: left;
+}
+#div3{
+    background-color: lightgreen;
+    border:2px solid black;
+    margin: 8px;
+    width: 31.5%;
+    float: left;
+}
+.h1,.h2,.h3{
+    text-align: center;
+    clear:both;
+    margin:2px;
+    font-weight: bold;
+}
+
+.headdiv1,.headdiv2,.headdiv3{
+   background: chocolate; 
+   width:22%;
+   border: 2px solid black;
+   position: relative;
+   top: -1px;
+   right:-1px;
+   float: right;
+}
+}
+@media (min-width: 768px) and (max-width: 992px){
+    #maindiv{
+    margin-top: 50px;
+}
+#div1{
+    background-color: lightblue;
+    border:2px solid black;
+    margin: 10px;
+    width: 47.2%;
+    float: left;
+}
+#div2{
+    background-color: lightcoral;
+    border:2px solid black;
+    margin: 10px;
+    width: 47.2%;
+    float: left;
+}
+#div3{
+    background-color: lightgreen;
+    border:2px solid black;
+    margin: 10px;
+    width: 97.1%;
+    clear: left;
+}
+.h1,.h2,.h3{
+    text-align: center;
+    clear:both;
+    margin:2px;
+    font-weight: bold;
+}
+
+.headdiv1,.headdiv2,.headdiv3{
+   background: chocolate; 
+   width:22%;
+   border: 2px solid black;
+   position: relative;
+   top: -1px;
+   right:-1px;
+   float: right;
+}
+}
+@media (max-width: 767px){
+    #maindiv{
+    margin-top: 50px;
+}
+#div1{
+    background-color: lightblue;
+    border:2px solid black;
+    margin: 10px;
+    width: 97.1%;
+}
+#div2{
+    background-color: lightcoral;
+    border:2px solid black;
+    margin: 10px;
+    width: 97.1%;
+}
+#div3{
+    background-color: lightgreen;
+    border:2px solid black;
+    margin: 10px;
+    width: 97.1%;
+}
+
+.h1,.h2,.h3{
+    text-align: center;
+    clear:both;
+    margin:2px;
+    font-weight: bold;
+}
+
+.headdiv1,.headdiv2,.headdiv3{
+   background: chocolate; 
+   width:22%;
+   border: 2px solid black;
+   position: relative;
+   top: -1px;
+   right:-1px;
+   float: right;
+}
+}
