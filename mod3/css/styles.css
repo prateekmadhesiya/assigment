@@ -1,0 +1,52 @@
+#header-nav {
+    background-color: #cccccc;
+    border-radius: 0;
+    border-bottom: 2px solid lightblue;
+    border-top: 2px solid lightblue;
+}
+    h1{
+        font-weight: 800;
+        color: brown;
+    }
+*{
+    font-family: Oxygen, serif;
+    color: chocolate;  
+}
+a:hover,a:focus
+    {
+    text-decoration: aliceblue;
+}
+#collapsable-nav a span{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+#head{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#inthead{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+#content{
+    border: 2px solid lightblue;
+    background-color: #cccccc;
+    border-radius: 0;
+}
+#collapsable-nav{
+    border-top: 1px solid lightblue;
+    visible-
+}
+@media(max-width:767px){
+    #content{
+    border: 2px solid lightblue;
+    background-color: #cccccc;
+    border-radius: 0;
+    margin: 50px;
+    }
+    #br-logo {
+        margin-left: 20px;
+    }
+}
